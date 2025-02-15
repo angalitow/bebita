@@ -39,10 +39,9 @@ header{
     justify-items: center;
 }
 
-#carga{
-    align-items: center;
-    justify-content: center;
-    justify-items: center;
+.carga{
+justify-items: center;
+display: block;
 }
 
 .cuentoslista{
@@ -74,5 +73,9 @@ card, img{
 
 .card{
     justify-items: center;
+    justify-content: center;
+}
+
+carga, img{
     justify-content: center;
 }
