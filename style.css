@@ -1,0 +1,78 @@
+body{
+    background-color: rgb(0, 0, 0);
+    height: 100vh;
+    color:aliceblue;
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: square;
+    color: aliceblue;
+}
+
+li{
+    margin: 15px;
+}
+
+.barra{
+    font-size: 15px;
+    background-color: gray;
+    border-radius: 50%;
+    justify-content: center;
+    min-width: 540px;
+}
+
+@font-face {
+    font-family: 'cj';
+    src: url('/Coraline\'s\ Cat.ttf') format('truetype');
+  }
+
+.encabezado{
+    width: 70vw;
+    justify-content: center;
+    font-family: "cj", Arial, Helvetica, sans-serif;
+}
+
+header{
+    justify-content: center;
+    justify-items: center;
+}
+
+#carga{
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
+
+.cuentoslista{
+    justify-content: center;
+    box-shadow: 2, 2, 2px;
+    width: 23%;
+    justify-items: center;
+}
+
+h1, h2{
+    font-family: "cj", Arial, Helvetica, sans-serif;
+
+    
+}
+
+a{
+    color: #52245e;
+}
+
+card, img{
+    width: 40%;
+    justify-self: center;
+}
+
+.container{
+    justify-content: center;
+    justify-items: center;
+}
+
+.card{
+    justify-items: center;
+    justify-content: center;
+}
